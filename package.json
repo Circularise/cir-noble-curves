@@ -21,7 +21,7 @@
     "test": "node test/index.test.js"
   },
   "author": "Paul Miller (https://paulmillr.com)",
-  "homepage": "https://paulmillr.com/noble/",
+  "homepage": "https://github.com/Circularise/cir-noble-curves",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Circularise/cir-noble-curves.git"
