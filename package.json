@@ -125,6 +125,11 @@
       "import": "./esm/jubjub.js",
       "default": "./jubjub.js"
     },
+    "./mina": {
+      "types": "./mina.d.ts",
+      "import": "./esm/mina.js",
+      "default": "./mina.js"
+    },
     "./p256": {
       "types": "./p256.d.ts",
       "import": "./esm/p256.js",
