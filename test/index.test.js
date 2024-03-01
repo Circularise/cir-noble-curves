@@ -1,6 +1,6 @@
 import { should } from 'micro-should';
 
-Should be first to catch obvious things
+// Should be first to catch obvious things
 import './basic.test.js';
 import './nist.test.js';
 import './ed448.test.js';
