@@ -12,6 +12,7 @@ import './secp256k1-schnorr.test.js';
 import './jubjub.test.js';
 import './hash-to-curve.test.js';
 import './poseidon.test.js';
+import './mina.test.js';
 import './bls12-381.test.js';
 
 should.run();
