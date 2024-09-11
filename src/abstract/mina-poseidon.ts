@@ -109,7 +109,7 @@ export function poseidon(opts: PoseidonOpts) {
   const poseidonHash = function poseidonHash(values: bigint[]): bigint {
     let initialState = Array(t).fill(0n);
     return poseidonUpdate(initialState, values)[0];
-  }
+  };
 
   const poseidonUpdate = function poseidonUpdate(state: bigint[], values: bigint[]): bigint[] {
     // if (!Array.isArray(values) || values.length !== t)
@@ -118,7 +118,7 @@ export function poseidon(opts: PoseidonOpts) {
       throw new Error(`Poseidon: wrong values (expected array of bigints with length ${t})`);
 
     // pad input with zeros so its length is a multiple of the rate
-    let rate = 2 // hard coded rate
+    let rate = 2; // hard coded rate
     let n = Math.ceil(values.length / rate) * rate;
     values = values.concat(Array(n - values.length).fill(0n));
 
@@ -159,6 +159,6 @@ export function poseidon(opts: PoseidonOpts) {
   // return poseidonHash;
   return {
     hash: poseidonHash,
-    update: poseidonUpdate
+    update: poseidonUpdate,
   };
 }
