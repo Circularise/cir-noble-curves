@@ -1,4 +1,3 @@
-// import { Field } from "o1js";
 import * as mod from "./abstract/modular.js";
 import { p, q } from "./pasta.js";
 import { poseidon } from "./abstract/mina-poseidon.js";
